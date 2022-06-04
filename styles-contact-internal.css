@@ -1,0 +1,242 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 80%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/cookie-spread-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+	
+	
+}
+
+
+
+h1 {
+	font-family: 'Raleway';
+	font-style: italic;
+	font-weight: 800;
+	font-display: swap;
+	text-transform: uppercase;
+	font-size: 3em;
+	margin: 0px auto 10px auto;
+	color:#fff;
+
+
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+	font-family: 'Raleway';
+	font-style: italic;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-display: swap;
+}
+
+p {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	font-size: 1.2em;
+	line-height: 1.6;
+	color:#fff;
+
+
+
+}
+
+
+nav {
+  margin: 0 auto;
+  width: 1200px;
+  position: fixed;
+  top: 0;
+  margin-top: 1.5em;
+
+}
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+li {
+  height: 32px;
+  float: left;
+  margin-right: 0px;
+  border-right: 3px solid rgb(255, 255, 255);
+  padding: 0 30px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font: 29px/1 Raleway, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+  
+
+}
+
+li a:hover {
+  color: rgb(156, 100, 90);
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .cardphoto img {
+    display: block;
+    max-width: 100%; /* makes image responsive if needed but makes sure it doesn't stretch */
+	border-radius: 2rem;
+  }
+ 
+  /* make the Section class cards here.  */
+ 
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+ 
+  /* make the card flex. The default is row so change flex direction to vertical. */
+  .card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  	margin-top: 200px;
+    min-width: 400px;
+    max-width: 400px;
+    border-radius: 2rem;
+    border-style: none;
+    border-color: gray;
+    box-shadow: 0 0 7px 2px rgba(145, 107, 97, 0.883);
+    position: relative;
+    top: 0;
+  }
+
+ 
+  .cardphoto {
+    max-height: 250px;
+    overflow:hidden;
+  }
+ 
+  .cardarticle {
+    padding: 2rem;
+    flex-grow: 1;
+  }
+ 
+  /* typography */
+  .cardH1 {
+    font-family: 'Raleway';
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+    color: rgb(67, 26, 26);
+  	text-transform: uppercase;
+    margin: 0px auto 5px auto;
+    text-align:left;
+    line-height: 1;
+
+  }
+ 
+  .card h2 {
+    font-family: 'Raleway';
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+    color: rgb(92, 86, 86);
+  	text-transform: uppercase;
+    margin: 0px auto 20px auto; 
+    text-align: left;
+  }
+  .card p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+ 
+ 
+  .card p {
+      color: grey;
+  }
